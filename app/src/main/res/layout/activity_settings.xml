@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sumeet.prettychat.SettingsActivity">
+    <include layout="@layout/appbar_layout"
+        android:id="@+id/settings_bar"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/group_icon"
+        android:layout_width="190dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="93dp"
+        android:src="@drawable/default_image"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Display Name"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/user_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:text="@string/hey_am_on_prettychat"
+        android:layout_below="@+id/display_name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/change_image"
+        style="@style/button_style"
+        android:layout_marginTop="27dp"
+        android:text="@string/change_image"
+        android:layout_below="@+id/user_status"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/change_status"
+        style="@style/button_style"
+        android:text="@string/change_status"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/change_image"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="style_edittext">
+        <item name="android:background">@drawable/background_edit</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ems">10</item>
+
+    </style>
+
+    <style name="style_edittext1">
+        <item name="android:background">@drawable/background_edit</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:inputType">textLongMessage</item>
+        <item name="android:gravity">center</item>
+
+
+    </style>
+
+
+   <style name="style_textView">
+    <item name="android:background">@drawable/backgroud_textview</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginRight">0dp</item>
+    <item name="android:layout_marginLeft">15dp</item>
+        </style>
+
+
+
+
+
+    <style name="button_style">
+<item name="android:background">
+    @drawable/button_style
+</item>
+<item name="android:layout_gravity">center</item>
+<item name="android:layout_width">150dp</item>
+<item name="android:layout_height">50dp</item>
+<item name="android:layout_marginTop">15dp</item>
+<item name="android:layout_marginRight">15dp</item>
+<item name="android:layout_marginLeft">15dp</item>
+<item name="android:layout_marginBottom">15dp</item>
+<item name="android:textStyle">
+    bold
+</item>
+
+<item name="android:ems">10</item>
+</style>
+
+
+<style name="button_style2">
+<item name="android:background">
+    @drawable/button_style2
+</item>
+<item name="android:layout_gravity">center</item>
+<item name="android:layout_width">150dp</item>
+<item name="android:layout_height">50dp</item>
+<item name="android:layout_marginTop">15dp</item>
+<item name="android:layout_marginRight">15dp</item>
+<item name="android:layout_marginLeft">15dp</item>
+<item name="android:layout_marginBottom">15dp</item>
+<item name="android:textStyle">
+    bold
+</item>
+
+<item name="android:ems">10</item>
+
+
+</style>
+
+<style name="button_style3">
+<item name="android:background">
+    @drawable/button_style2
+</item>
+<item name="android:layout_gravity">center</item>
+<item name="android:layout_width">100dp</item>
+<item name="android:layout_height">40dp</item>
+<item name="android:layout_marginTop">15dp</item>
+<item name="android:layout_marginRight">15dp</item>
+<item name="android:layout_marginLeft">15dp</item>
+<item name="android:layout_marginBottom">15dp</item>
+<item name="android:textStyle">
+    bold
+</item>
+
+<item name="android:ems">10</item>
+
+
+</style>
+
+<style name="button_style4">
+<item name="android:background">
+    @drawable/button_style2
+</item>
+<item name="android:layout_gravity">left</item>
+<item name="android:layout_width">70dp</item>
+<item name="android:layout_height">match_parent</item>
+<item name="android:layout_marginLeft">5dp</item>
+<item name="android:layout_marginRight">3dp</item>
+item>
+<item name="android:inputType">textMultiLine</item>
+
+<item name="android:ems">10</item>
+
+
+</style></resources>

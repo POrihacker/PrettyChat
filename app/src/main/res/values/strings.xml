@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PrettyChat</string>
+    <string name="welcome_to_prettychat">Welcome to PrettyChat</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_to_your_account">loginWelcome</string>
+    <string name="submit">Submit</string>
+    <string name="password">password</string>
+    <string name="email">Email</string>
+    <string name="login_to_account">Login to your Account</string>
+    <string name="UserName">Username</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="all_groups">All Groups</string>
+    <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_status">Enter your Status</string>
+    <string name="update">Update</string>
+    <string name="status">Status</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="join">join</string>
+    <string name="display_name">Display Name</string>
+    <string name="userstatus">UserStatus</string>
+    <string name="change_image">Change Image</string>
+    <string name="change_status">Change Status</string>
+    <string name="hey_am_on_prettychat">hey Am on PrettyChat</string>
+    <string name="delete_chat">delete chat</string>
+    <string name="profile">profile</string>
+    <string name="display_name2">Display Name</string>
+    <string name="last_seen">last seen</string>
+    <string name="display_name_chat">DisplayName</string>
+    <string name="type_message">type message...</string>
+    <string name="type_message1">type message...</string>
+</resources>

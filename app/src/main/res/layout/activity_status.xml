@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    tools:context="com.example.sumeet.prettychat.StatusActivity">
+
+    <include
+        android:id="@+id/status_bar"
+        layout="@layout/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/update_status"
+        style="@style/button_style2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="226dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:text="@string/save_changes" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/update_status"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp"
+        android:gravity="center"
+        android:hint="Status">
+
+        <EditText
+            android:id="@+id/account_status"
+            style="@style/style_edittext"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="start"
+            android:hint="@string/status" />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>

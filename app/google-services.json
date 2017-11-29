@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "353324214667",
+    "firebase_url": "https://prettychat-2c507.firebaseio.com",
+    "project_id": "prettychat-2c507",
+    "storage_bucket": "prettychat-2c507.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353324214667:android:ed79a655f82afa10",
+        "android_client_info": {
+          "package_name": "com.example.sumeet.prettychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353324214667-4oumi6fppv4t3k0hlf8dn6d38lf05r9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sumeet.prettychat",
+            "certificate_hash": "abdae3e6e9bdda0090261a594d04aedf20b82598"
+          }
+        },
+        {
+          "client_id": "353324214667-75qjvvka4kk5sv4ds9ss2ne6l5alnnqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB0Mdpt7Sz5arTCvGNRAHIn2eivkWaY6U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353324214667-75qjvvka4kk5sv4ds9ss2ne6l5alnnqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

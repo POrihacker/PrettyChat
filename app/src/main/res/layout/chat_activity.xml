@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.sumeet.prettychat.ChatActivity">
+
+    <include
+        android:id="@+id/groupuser_bar"
+        layout="@layout/appbar_layout" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/MessageRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/groupuser_bar"></android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <EditText
+
+            android:id="@+id/type_message"
+            style="@style/style_edittext1"
+            android:layout_marginLeft="6dp"
+            android:hint=" type message..."
+            tools:ignore="RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/send_message"
+            style="@style/button_style4"
+            android:contentDescription=""
+            app:srcCompat="@drawable/ic_send_black_24dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
